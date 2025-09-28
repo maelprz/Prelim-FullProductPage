@@ -5,6 +5,8 @@ import 'specifications.dart';
 import 'origin.dart';
 import 'delivery.dart';
 import 'ratingsreviews.dart';
+import 'mostpopular.dart';
+import 'youmightlike.dart';
 
 void main() {
   runApp(const MyApp());
@@ -117,7 +119,13 @@ class ProductPage extends StatelessWidget {
             const Delivery(),
 
             const SizedBox(height: 17),
-            const RatingsReviews()
+            const RatingsReviews(),
+
+            const SizedBox(height: 17),
+            const MostPopular(),
+
+            const SizedBox(height: 17),
+            const YouMightLike(),
           ],
         ),
       ),

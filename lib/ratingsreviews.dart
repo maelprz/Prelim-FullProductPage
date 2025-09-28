@@ -113,7 +113,7 @@ class RatingsReviews extends StatelessWidget {
 
        Container(
           width: double.infinity, 
-          padding: const EdgeInsets.symmetric(vertical: 15),
+          padding: const EdgeInsets.symmetric(vertical: 12),
           decoration: BoxDecoration(
             color: const Color(0xFF004CFF),
             borderRadius: BorderRadius.circular(18),
