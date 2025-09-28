@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'variations.dart';
 import 'specifications.dart';
+import 'origin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -67,7 +68,7 @@ class ProductPage extends StatelessWidget {
                     const SizedBox(width: 15), // spacing if needed
                     Container(
                       decoration: BoxDecoration(
-                        color: const Color(0xFFFFEBEB),
+                        color: Color.fromARGB(255, 255, 226, 226),
                         shape: BoxShape.circle,
                       ),
                       padding: const EdgeInsets.all(10),
@@ -106,6 +107,9 @@ class ProductPage extends StatelessWidget {
 
             const SizedBox(height: 5),
             const Specifications(),
+
+            const SizedBox(height: 5),
+            const Origin(),
           ],
         ),
       ),

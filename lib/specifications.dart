@@ -26,8 +26,8 @@ class Specifications extends StatelessWidget {
           Text(
             "Material",
             style: GoogleFonts.raleway(
-              fontSize: 25,
-              fontWeight: FontWeight.w600,
+              fontSize: 23,
+              fontWeight: FontWeight.w700,
             ),
           ),
 
@@ -39,15 +39,15 @@ class Specifications extends StatelessWidget {
               // Cotton 95%
               Container(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 15, vertical: 4),
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 1),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFFFEBEB),
+                  color: const Color.fromARGB(255, 255, 226, 226),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Text(
                   "Cotton 95%",
                   style: GoogleFonts.raleway(
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
@@ -58,15 +58,15 @@ class Specifications extends StatelessWidget {
               // Nylon 5%
               Container(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 15, vertical: 4),
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 1),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFFFEBEB),
+                  color: const Color.fromARGB(255, 255, 226, 226),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Text(
                   "Nylon 5%",
                   style: GoogleFonts.raleway(
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
