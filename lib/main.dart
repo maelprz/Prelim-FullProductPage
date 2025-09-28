@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'variations.dart';
 import 'specifications.dart';
 import 'origin.dart';
+import 'delivery.dart';
 
 void main() {
   runApp(const MyApp());
@@ -102,14 +103,17 @@ class ProductPage extends StatelessWidget {
               ),
             ),
 
-            const SizedBox(height: 5),
+            const SizedBox(height: 17),
             const Variations(),
 
-            const SizedBox(height: 5),
+            const SizedBox(height: 17),
             const Specifications(),
 
-            const SizedBox(height: 5),
+            const SizedBox(height: 17),
             const Origin(),
+
+            const SizedBox(height: 17),
+            const Delivery(),
           ],
         ),
       ),
