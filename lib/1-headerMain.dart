@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '2-variations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -100,6 +101,10 @@ class ProductPage extends StatelessWidget {
                       color: Colors.black87,
                     ),
                   ),
+
+                  const SizedBox(height: 5), 
+
+                  const Variations(),
                 ],
               ),
             ),

@@ -22,3 +22,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/headerImage.png
+    - assets/variationImage1.png
+    - assets/variationImage2.png
+    - assets/variationImage3.png
