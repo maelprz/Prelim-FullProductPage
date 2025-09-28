@@ -24,7 +24,7 @@ class Origin extends StatelessWidget {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 2),
           decoration: BoxDecoration(
-            color: const Color.fromARGB(255, 229, 227, 247),
+            color: const Color.fromARGB(255, 213, 227, 247),
             borderRadius: BorderRadius.circular(5),
           ),
           child: Text(
