@@ -81,7 +81,7 @@ class YouMightLike extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  "\$17.00",
+                  "\$17,00",
                   style: GoogleFonts.raleway(
                     fontSize: 20,
                     fontWeight: FontWeight.w700,

@@ -59,7 +59,7 @@ class ProductPage extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      "\$17.00",
+                      "\$17,00",
                       style: GoogleFonts.raleway(
                         fontSize: 32,
                         fontWeight: FontWeight.w800,
